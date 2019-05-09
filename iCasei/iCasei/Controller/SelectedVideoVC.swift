@@ -16,6 +16,7 @@ class SelectedVideoVC: UIViewController {
     @IBOutlet weak var likesLbl: UILabel!
     @IBOutlet weak var deslikesLbl: UILabel!
     @IBOutlet weak var visualizationLbl: UILabel!
+    @IBOutlet weak var descriptionTxtArea: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +29,8 @@ class SelectedVideoVC: UIViewController {
         tituloLbl.text = Title
         
         let Description = searchServices.instance.description ?? ""
-        descricaoLbl.text = Description
+        //descricaoLbl.text = Description
+        descriptionTxtArea.text = Description
         
         let Image = searchServices.instance.Img ?? ""
         let url = URL(string: Image)
