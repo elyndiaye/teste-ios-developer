@@ -186,13 +186,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descricao" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="60" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEu-eq-s32">
-                                <rect key="frame" x="269" y="237" width="45" height="12"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deslikes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFK-he-dBC">
                                 <rect key="frame" x="265" y="587" width="53" height="17"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -242,7 +235,6 @@
                         <viewLayoutGuide key="safeArea" id="GiF-WJ-fs6"/>
                     </view>
                     <connections>
-                        <outlet property="descricaoLbl" destination="yEu-eq-s32" id="H1O-1g-QfI"/>
                         <outlet property="descriptionTxtArea" destination="Ddp-Ok-4Gz" id="BkE-R5-Cq1"/>
                         <outlet property="deslikesLbl" destination="gFK-he-dBC" id="RcN-fp-0W6"/>
                         <outlet property="imageVideo" destination="KWa-cj-YXy" id="jXv-Dy-HaN"/>
